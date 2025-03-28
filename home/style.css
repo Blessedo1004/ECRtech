@@ -131,6 +131,7 @@ body{
 }
 .testimonials{
   background-color: white;
+  border-radius: 10px;
 }
 .owl-carousel .owl-dots {
 	display: block !important;
