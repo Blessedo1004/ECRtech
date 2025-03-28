@@ -133,8 +133,8 @@ body{
   background-color: white;
   border-radius: 10px;
 }
-.owl-carousel .owl-dots {
-	display: block !important;
+.owl-dots {
+	display: inline-block !important;
 }
 .owl-carousel{
   margin: auto !important;
@@ -210,10 +210,6 @@ body{
 
   .hero_img{
     display: none;
-  }
-
-  .text_grp_1{
-    font-size: small;
   }
   
   .hero_section{
