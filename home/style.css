@@ -85,7 +85,7 @@ body{
   color: #006FBA;
   border: 1px solid #006FBA !important;
 }
-.course_bg,.social_bg, .testi_container{
+.course_bg,.social_bg, .testi_container,.footer_bg{
   background-color: #EBF7FF;
 }
 
@@ -145,13 +145,31 @@ body{
 .person_name{
   font-weight: 700;
 }
-.person_occupation{
-  font-weight: 400;
+.person_occupation,.footer_text{
+  font-weight: 300;
+}
+.footer_icons{
+  display: flex;
+  gap:5px;
 }
 
-@media only screen and (min-width:500px) and (max-width:689.9px){
+.footer_header_text{
+  font-weight: 700;
+}
+.footer_container{
+  background-image: url('images/footer_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer_row{
+  padding-top: 15%;
+}
+@media only screen and (min-width:400px) and (max-width:689.9px){
   .social_row{
-    padding-top: 80% !important;
+    padding-top: 90% !important;
+  }
+  .footer_row{
+      padding-top: 50% !important;
   }
 }
 
@@ -159,17 +177,25 @@ body{
   .social_row{
     padding-top: 60% !important;
   }
+  .footer_row{
+    padding-top: 20% !important;
+}
 }
 /* phones */
 @media only screen and (max-width:767.9px){
   .social_row{
   padding-top: 120%;
   }
-
+  .footer_row{
+    padding-top: 80%;
+}
+  .pages{
+    margin: auto !important;
+  }
 .footer_icons{
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 10px !important;
   }
   .social_container{
     height: 1800px !important;
@@ -250,11 +276,6 @@ body{
   .social_container{
     height: 810px !important;
   }
-  .footer_icons{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    }
   .nav{
     margin: auto !important;
   }
