@@ -286,6 +286,9 @@ body{
   .hero_text{
     font-size: xx-large;
   }
+  .solution_grp .text_grp_1{
+    margin: auto;
+  }
 }
 /* larger tablets,small laptops */
 @media only screen and (min-width:992px) and (max-width:1199.9px){
