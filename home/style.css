@@ -135,6 +135,7 @@ body{
 }
 .owl-dots {
 	display: inline-block !important;
+  margin-top: 2% !important;
 }
 .owl-carousel{
   margin: auto !important;
