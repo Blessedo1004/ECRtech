@@ -273,14 +273,6 @@ body{
   .social_container{
     height: 810px !important;
   }
-  .nav{
-    margin: auto !important;
-  }
-
-  #collapsibleNavbar>.btn_grp_1{
-    margin-right: 5% !important;
-  }
-
   .hero_section{
     padding-bottom: 5%;
   }
