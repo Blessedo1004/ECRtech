@@ -108,6 +108,8 @@ body{
 }
 .tech_card{
   background-image: url("images/Patern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px !important;
 }
 .card-img-top{
