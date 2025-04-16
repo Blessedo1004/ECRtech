@@ -185,7 +185,7 @@ html,body{
 /* phones */
 @media only screen and (max-width:767.9px){
   .social_row{
-  padding-top: 120%;
+  padding-top: 100%;
   }
   .footer_row{
     padding-top: 80%;
@@ -199,7 +199,7 @@ html,body{
   gap: 10px !important;
   }
   .social_container{
-    height: 1800px !important;
+    height: auto !important;
   }
 
   .card_row{
