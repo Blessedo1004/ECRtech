@@ -167,7 +167,7 @@ html,body{
 }
 @media only screen and (min-width:400px) and (max-width:689.9px){
   .social_row{
-    padding-top: 90% !important;
+    padding-top: 85% !important;
   }
   .footer_row{
       padding-top: 50% !important;
