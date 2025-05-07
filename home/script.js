@@ -11,3 +11,11 @@ window.addEventListener('scroll', function() {
   }
 });
 
+window.addEventListener("load", () => {
+
+  const preloader = document.querySelector(".pre-con");
+  preloader.classList.add("hidden");
+
+  const content = document.querySelector(".content");
+  content.style.display = "block";
+});
