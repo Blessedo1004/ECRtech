@@ -23,7 +23,10 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="preloader spinner-grow spinner-grow-lg bg-primary"></div>
+  <div class="pre-con">
+    <div class="preloader spinner-grow spinner-grow-lg bg-primary"></div>
+  </div>
+  
   <div class="content">
         <!-- Navbar -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
@@ -769,7 +772,7 @@ $(document).ready(function(){
 </script>
 <script>
  window.addEventListener("load", () => {
-    const preloader = document.querySelector(".preloader");
+    const preloader = document.querySelector(".pre-con");
     preloader.classList.add("hidden");
 
     const content = document.querySelector(".content");
