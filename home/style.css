@@ -183,21 +183,34 @@ html,body{
 .footer_row{
   padding-top: 15%;
 }
+
+@media only screen and (min-width:100px) and (max-width:399.9px){
+  .social_row{
+    margin-top: -53% !important;
+  }
+  .footer_row{
+    margin-top: -50% !important;
+  }
+}
 @media only screen and (min-width:400px) and (max-width:689.9px){
   .social_row{
-    padding-top: 85% !important;
+    padding-top: 55% !important;
+    margin-top: -30% !important;
   }
   .footer_row{
       padding-top: 50% !important;
+      margin-top: -23% !important;
   }
 }
 
 @media only screen and (min-width:690px) and (max-width:767.9px){
   .social_row{
-    padding-top: 60% !important;
+    padding-top: 50% !important;
+    margin-top: -20% !important;
   }
   .footer_row{
     padding-top: 20% !important;
+    margin-top: -17% !important;
 }
 }
 /* phones */
@@ -217,7 +230,7 @@ html,body{
   gap: 10px !important;
   }
   .social_container{
-    height: auto !important;
+  
   }
 
   .card_row{

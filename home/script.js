@@ -19,5 +19,5 @@ window.addEventListener("load", () => {
 
     const content = document.querySelector(".content");
     content.style.display = "block";
-  }, 2000);
+  }, 1500);
 });
