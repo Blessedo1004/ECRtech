@@ -195,6 +195,7 @@ html,body{
 @media only screen and (min-width:400px) and (max-width:689.9px){
   .social_row{
     padding-top: 55% !important;
+    padding-bottom: 10% !important;
     margin-top: -30% !important;
   }
   .footer_row{
@@ -206,6 +207,7 @@ html,body{
 @media only screen and (min-width:690px) and (max-width:767.9px){
   .social_row{
     padding-top: 50% !important;
+    padding-bottom: 10% !important;
     margin-top: -20% !important;
   }
   .footer_row{
@@ -229,9 +231,7 @@ html,body{
   justify-content: center !important;
   gap: 10px !important;
   }
-  .social_container{
   
-  }
 
   .card_row{
     margin: auto !important;
