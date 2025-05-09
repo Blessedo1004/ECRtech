@@ -9,7 +9,7 @@ html,body{
 .hidden{
   display: none !important;
 }
-.pre-con{
+.pre_con{
   display: flex;
   justify-content: center;
   align-items: center;

@@ -14,7 +14,7 @@ window.addEventListener('scroll', function() {
 window.addEventListener("load", () => {
 
   setTimeout(() => {
-    const preloader = document.querySelector(".pre-con");
+    const preloader = document.querySelector(".pre_con");
     preloader.classList.add("hidden");
 
     const content = document.querySelector(".content");
